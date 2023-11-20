@@ -40,3 +40,6 @@ To receive data, the output file (rng_output.txt) should be read using this exam
         time.sleep(5)
         poke_num = file.readline()
     file.close()
+    
+UML
+<img width="1012" alt="Screenshot 2023-11-20 at 14 34 47" src="https://github.com/caitlinhat/CS361_microservice/assets/103151440/3c83d7a2-35fb-446c-82a8-080b0a584da0">
