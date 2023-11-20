@@ -11,5 +11,6 @@ def get_input():
         poke_num = file.readline()
     file.close()
 
+    return poke_num
 
 get_input()
