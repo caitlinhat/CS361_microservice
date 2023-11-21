@@ -17,8 +17,8 @@ How to: REQUEST DATA
 To request data, the program should write “request” to the text file. This will trigger the microservice to run and write the result to the output file. An example of how the PRNG service can be used is held in example_call.py and is also shown below:
 
 Example call:
+
     import time
-    
     
     def get_input():
         with open("rng_output.txt", 'w') as file:
@@ -32,6 +32,8 @@ Example call:
     
     
     get_input()
+
+The user may choose to limit the high end of the number generated. This can be changed within prng_service.py by manipulating the "total_entries" variable.
 
 How to: RECEIVE DATA
 To receive data, the output file (rng_output.txt) should be read using this example:
